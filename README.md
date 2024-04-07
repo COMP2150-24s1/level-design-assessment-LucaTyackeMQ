@@ -79,10 +79,14 @@ No additional words are necessary for this section (any words should only be wit
 ### 3.1. Molecule Diagram
 
 ### 3.2. Level Map – Section 1
+![Section 1 level map](DocImages/Section 1 level map.PNG)
 
 ### 3.3.	Level Map – Section 2
+![Section 2a level map](DocImages/Section 2a level map.PNG)
+![Section 2b level map](DocImages/Section 2b level map.PNG)
 
 ### 3.4.	Level Map – Section 3
+![Section 3 level map](DocImages/Section 3 level map.PNG)
 
 ## 4. Iterative Design (~400 words)
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
@@ -95,18 +99,6 @@ Use the below table to indicate any Generative AI or writing assistance tools us
 An example has been included. Please replace this with any actual tools, and add more as necessary.
 
 
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
+### No generative AI was used in the making of this project.
 
 
