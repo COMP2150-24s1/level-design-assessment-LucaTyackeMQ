@@ -50,8 +50,20 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 You should restructure the headings below to match the order they appear in your level.
 
 ### 2.1. Acid
+![Acid storyboard](DocImages/Acid.PNG)
+Acid is very mechanically simple for the player to understand. Its chosen as the first feature to display as it is a relatively "safe" way of getting the player accustomed to platforming without fear of them getting stuck somewhere.
 
 ### 2.2. Checkpoints
+![Checkpoint storyboard](DocImages/Checkpoint.PNG)
+Checkpoints go hand-in-hand with acid. The first room does not need a checkpoint since the default spawn is so close, but every subsequent room has a checkpoint to prevent the player from losing too much progress from falling into acid.
+
+### 2.3. Passthrough Platforms
+![Passthrough storyboard](DocImages/Passthrough.PNG)
+Passthrough platforms were useful, but were not used often. They provide level design utility but do not have much of an impact on the rest of the game's mechanics.
+
+### 2.4. Spikes
+![Spikes storyboard](DocImages/Spikes.PNG)
+Spikes are largely used throughout to dissuade the player from taking certain pathways. They act as a less punishing form of acid, as they allow the player to recover with I-frames rather than simply being reset to a static position.
 
 ### 2.3. Chompers
 
@@ -61,9 +73,9 @@ You should restructure the headings below to match the order they appear in your
 
 ### 2.6. Moving Platforms
 
-### 2.7. Passthrough Platforms
 
-### 2.8. Spikes
+
+
 
 ### 2.9. Spitters
 
@@ -77,7 +89,7 @@ A section on Spatiotemporal Design, which includes your molecule diagram and ann
 No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
-![Section 1 level map](DocImages/Moleculediagram.PNG)
+![Molecule diagram](DocImages/Moleculediagram.PNG)
 Moleculediagram.PNG
 ### 3.2. Level Map – Section 1
 ![Section 1 level map](DocImages/Section1levelmap.PNG)
