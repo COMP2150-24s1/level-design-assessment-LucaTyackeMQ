@@ -65,23 +65,21 @@ Passthrough platforms were useful, but were not used often. They provide level d
 ![Spikes storyboard](DocImages/Spikes.PNG)
 Spikes are largely used throughout to dissuade the player from taking certain pathways. They act as a less punishing form of acid, as they allow the player to recover with I-frames rather than simply being reset to a static position.
 
-### 2.3. Chompers
+### 2.5. Weapon (staff), Chomper
+![Staff and Chomper storyboard](DocImages/StaffChomper.PNG)
+The staff and chomper are introduced very close together, as they pair quite well together. However, because all enemies have the same amount of health, it means the staff's strengths are largely eclipsed by the range of the gun. Similarly with the low range Chompers versus the much more versatile spitters.
 
-### 2.4. Health Pickups
+### 2.6. Keys, Health Pickups
+![Health pickups and keys storyboard](DocImages/HeartsKeys.PNG)
+Hearts and keys are introduced and dispersed during more transitional, less exciting sections as a reward for pushing through difficult encounters. The exact locations they are disperse is not very important, rather that they are positioned after or in between two significant encounters.
 
-### 2.5. Keys
+### 2.7. Weapon Pickup (Gun), Spitter
+![Gun and Spitter storyboard](DocImages/GunSpitter.PNG)
+The spitter and gun are much more versatile compared to their melee counterparts. They were introduced together as they act as eachother's direct counter. As such, I decided that they would be what I primarily designed the final challenge of the level around, while still adding in small amounts of using the staff as a tool.
 
-### 2.6. Moving Platforms
-
-
-
-
-
-### 2.9. Spitters
-
-### 2.10. Weapon Pickup (Gun)
-
-### 2.11. Weapon Pickup (Staff)
+### 2.8. Moving Platforms
+![Moving platforms storyboard](DocImages/MovingPlatforms.PNG)
+Moving platforms is an expansion on the already existing platforming, where timing and precision are highlighted in order to enhance the tension faced by the player. Its only fitting they are most utilised in what is supposed to be the most tense section of the level, the final gauntlet.
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
