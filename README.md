@@ -77,7 +77,8 @@ A section on Spatiotemporal Design, which includes your molecule diagram and ann
 No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
-
+![Section 1 level map](DocImages/Moleculediagram.PNG)
+Moleculediagram.PNG
 ### 3.2. Level Map – Section 1
 ![Section 1 level map](DocImages/Section1levelmap.PNG)
 
@@ -92,6 +93,12 @@ No additional words are necessary for this section (any words should only be wit
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+
+Iterative design was used almost perpetually throughout the development of the level. Though some small prototypes were made on paper, the majority of iterative design was done in practice. Having completed code and controllable and interactive assets meant that playtesting could be done as the level was developed, in order to ascertain whether or not a feature or design decision was engaging and communicated well enough to the player. This allowed for a continuous and rapid cycle of testing and development that routinely managed to trim the fat of unfun or unnecessarily difficult design choices from the level by catching these choices early in development, so as to not let them become too integrated to remove later. This method allowed for a very quick development cycle for both section 2 rooms, as this iterative design ended up directly leading to the choice to require switches to be hit with gun projectiles, to give it a similarly important use case to the staff's ability to break cracked walls.
+
+A few other changes were made from the maps in section 3, but these were mostly topical changes made during or after playtesting found some issues. The illustrations from section 3 were produced while some of the level design had already been fleshed out, and as such the drawings served mainly as a guideline for what the gameplay route of the level was intended to be.
+
+The player's melee ability is a feature that could benefit from iterative design in the future. During level development, I noticed that the lunge distance variable on the player character's prefab was exposed, and when editing this value it manipulated how far the player was carried forward when using a melee attack. I was interested in the potential this had as a movement tool, but ultimately decided against manipulating it in the final level, as I was afraid of the repercussions it may have on the viability of melee combat. If I had the opportunity, I would like to take another look at this in future, to potentially see if this extended distance aerial melee could be iterated upon or even integrated as a tool to be used primarily to enhance the player's movement suite.
 
 ## Generative AI Use Acknowledgement
 
