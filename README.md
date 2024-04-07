@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
+### Name: Luca Tyacke
+### Student number: 47786035 
 
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
@@ -19,16 +19,28 @@ Example:
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+*What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?*
+
+Player discovery is facilitated by the sectioned and intentional introduction of mechanics. Each section of the level introduces and utilises a specific set of mechanics, and allow the player to familiarise themselves with how each of these mechanics function individually, and how they interact with eachother. Section 1 (rooms 1 and 2) serve to introduce the player to checkpoints, stage hazards (acid and spikes), and to familiarize the player with the platforming. 
+Section 2 is comprised of two different encounters, both of which introduce the player to different mechanics. Completing both of these encounters is required to access section 3. After reaching Room 2 the player can choose to go either up-left or up-right, both of which will assist in allowing the player to progress. Each of these encounters introduces a weapon, allows the player to familiarise themselves with combat involving that weapon, and showcases an extra interaction each weapon has with certain level features (breakable walls for the staff, switches for the gun). Each of these encounters rewards a health pickup, and loops back around to Room 2. 
+Section 3 is restricted until the player has acquired both weapons. Because of its increased difficulty, it is generous with its checkpoints and health pickups. Section 3 serves to test the player's ability to use all the mechanics they have learned so far in one final gauntlet to the level exit door, accompanied by increased difficulty platforming. 
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+*What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief?*
+
+The level has a clear dramatic arc that increases with each encounter. The second room's "hub"-like nature means on repeat visits it becomes less of a platforming challenge, and more a familiar period of downtime in the form of simple platforming between the higher difficulty major encounters. Each encounter in section 2 is more dramatic but is rather stable throughout, there is no particular part that is more difficult than the rest of the encounter, and each of these tense encounters returns to the relief of Room 2 with rewards of health pickups after the player has succeeded. The section 3 encounter displays increasing difficulty and drama, making the player act on their toes and utilise all the mechanics they had learned beforehand, before finally reaching the level end door.
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+*What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?*
+
+The challenges within the level largely stem from the combat and platforming, and how the two can be intertwined. The low-to-moderate difficulty platforming in section 1 serves as a respite between the encounters within section 2. Each of the encounters within section 2 requires players to manage both platforming, and low difficulty combat, which should provide a suitable challenge to accompany the learning each encounter encourages. Section 3 takes this notion to its extremes, and provides an encounter that requires the player to engage methodically in combat, effectively dodge enemy projectiles, and manouever across moving platforms, in a gauntlet of combat and platforming that escalates in difficulty until the player finally reaches the end.
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+*How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?*
+
+The level's layout encourages exploration from the player. Aesthetically the level is themed around exploring ancient ruins, which the player progressively gets greater and greater access to through the acquisition of new tools (their weapons and knowledge). Past examples of 2d platformer games (such as the original Super Mario Bros) have established the convention of the player moving across the level from left to right. After moving into Room 2, the player will be immediately met with a door that blocks them from continuing right. Because of this blockage, the player is encouraged to seek out other methods that will allow them to open or circumvent this door, which eventually leads to the discovery of each of the encounters in Section 2.
+The section 2 encounters both serve to further the player's goal of being able to get past the locked door by travelling deeper into other parts of the ancient structure. One of the three keys is located in each of these areas, while the third is acquired in section 3. As the player platforms up they will be met with a large terrain obstacle which clearly divides the path they can take upwards in two (each leading to one of the aforementioned encounters). Each of these encounters loop back around to the central area of Room 2, which then allows the player to continue exploring the alternative paths out of this hub section. 
+Section 3 is accessed after the player is able to break down the barriers that let them continue to explore right. This is a rather difficult linear section that is supposed to be representative of the player approaching the structure's heart. The challenge it provides drives the player to continue on, and eventually finding the last key and reaching the exit.
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
